@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npx -n \"-r dotenv/config\" gatsby-plugin-s3 deploy --yes",
+    "deploy": "gatsby-plugin-s3 deploy --yes",
     "build": "gatsby build"
   },
   "repository": {

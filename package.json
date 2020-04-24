@@ -1,0 +1,26 @@
+{
+  "name": "gatsbyjs-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby-plugin-s3 deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiAshbery/gatsbyjs-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiAshbery/gatsbyjs-tutorial/issues"
+  },
+  "homepage": "https://github.com/SiAshbery/gatsbyjs-tutorial#readme",
+  "dependencies": {
+    "gatsby": "^2.20.29",
+    "gatsby-plugin-s3": "^0.3.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
